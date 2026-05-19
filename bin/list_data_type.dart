@@ -35,4 +35,12 @@ void main(){
   numberList2.insert(2, 5);
   print(numberList2);
 
+  //list update..
+  var List1 = ['Dhaka','Rangpur','Barishal','Jassore','Khulna'];
+  List1[2] = 'Maymensingh';
+  print(List1);
+
+  List1.removeLast();
+  print(List1);
+
 }

@@ -31,6 +31,8 @@ void main(){
   print(numberList);
   
   var numberList2 = [1,3,4,6,9];
-  print(object)
+  print(numberList2);
+  numberList2.insert(2, 5);
+  print(numberList2);
 
 }

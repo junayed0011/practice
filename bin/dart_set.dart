@@ -12,4 +12,26 @@ void main(){
 
   print(numbers);
 
+  //access the set element...
+  var cities = <String>{'Dhaka','Barishal','Khulna'};
+  cities.addAll({'Rangpur','Chittagong','Maymensingh'});
+
+  print(cities);
+  print(cities.elementAt(4));
+
+  //remove elements from dart set
+  var Items = <String>{'Tool','Car','Ball','Sky'};
+  Items.clear();
+  print(Items);
+
+  //dart set properties
+  var myItems = <String>{'Tool','Car','Ball','Sky'};
+  print(myItems.first);
+  print(myItems.last);
+  print(myItems.isEmpty);
+  print(myItems.isNotEmpty);
+  print(myItems.length);
+  print(myItems.hashCode);
+  print(myItems.single); //not an error
+
 }

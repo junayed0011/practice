@@ -36,11 +36,11 @@ void main(){
   print(numberList2);
 
   //list update..
-  var List1 = ['Dhaka','Rangpur','Barishal','Jassore','Khulna'];
-  List1[2] = 'Maymensingh';
-  print(List1);
+  var list1 = ['Dhaka','Rangpur','Barishal','Jassore','Khulna'];
+  list1[2] = 'Maymensingh';
+  print(list1);
 
-  List1.removeLast();
-  print(List1);
+  list1.removeLast();
+  print(list1);
 
 }

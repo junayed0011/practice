@@ -20,9 +20,9 @@ void main(){
   print(cities.elementAt(4));
 
   //remove elements from dart set
-  var Items = <String>{'Tool','Car','Ball','Sky'};
-  Items.clear();
-  print(Items);
+  var items = <String>{'Tool','Car','Ball','Sky'};
+  items.clear();
+  print(items);
 
   //dart set properties
   var myItems = <String>{'Tool','Car','Ball','Sky'};

@@ -27,7 +27,7 @@ void main(){
 
   //Map methods...
   //addAll method..
-  person.addAll({'Blood group':'A+', 'Region':'Islam'});
+  person.addAll({'Blood group':'A+', 'Religion':'Islam'});
   print(person);
 
   //clear method..

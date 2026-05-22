@@ -13,7 +13,7 @@ void main(){
   print(person);
 
   //using map constructor...
-  var details = new Map();
+  var details = {};
   details['Name'] = 'Junayed';
   details['Age'] = '24';
   details['City'] = 'Nilphamari';

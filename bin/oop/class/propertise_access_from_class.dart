@@ -7,5 +7,4 @@ void main(){
   print(obj.Alphabet[0]);
 
   obj.AddTwoNumbers(8, 12);
-  obj.AddThreeNumbers(3, 7, 20);
 }

@@ -6,7 +6,7 @@ class Myclass {
     print(x+y);
   }
 
-  AddThreeNumbers(var x, var y, var z){
+  static AddThreeNumbers(var x, var y, var z){
     print(x+y+z);
   }
 }
